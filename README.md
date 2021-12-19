@@ -13,6 +13,7 @@
   <!--<img align="center" alt="Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">-->
   <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
   <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <img align="right" alt="Dragon" height="150" style="border-radius:100px;" src="https://cdn.discordapp.com/attachments/918234319548465162/922262680419577936/download20211200195447.png">
 </div>
 
 ##
