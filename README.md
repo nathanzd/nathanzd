@@ -1,10 +1,10 @@
 
 <h3>- 👋 Ola, Meu nome é Nathan Bem vindo Ao Meu Git</h3>
 
-<div align="center">
+<div width="auto">
   <a href="https://github.com/nathanzd">
-  <img height="180em" width="auto" src="https://github-readme-stats.vercel.app/api?username=nathanzd&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" width="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nathanzd&layout=compact&langs_count=7&theme=dark"/>
+  <img height="150px" width="auto" src="https://github-readme-stats.vercel.app/api?username=nathanzd&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="150px" width="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nathanzd&layout=compact&langs_count=7&theme=dark"/>
 </div>
 <div style="display:inline_block"><br>
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
