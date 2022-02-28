@@ -1,5 +1,9 @@
 
-<h3>- 👋 Ola, Meu nome é Nathan Bem vindo Ao Meu Git</h3>
+<h3>- 👋 Hello,My name is Nathan Welcome to my Git</h3>
+<h4>- 💻 Front-End</h4>
+<h4>- ⚛ ReactJs Developer </h4>
+<h4>- ✉ nathan.fe.dias@gmail.com</h4>
+
 
 <div align="center">
   <a href="https://github.com/nathanzd">
