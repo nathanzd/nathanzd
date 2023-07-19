@@ -1,5 +1,5 @@
-
-<h3>- 👋 Welcome</h3>
+<link src="./README.css">
+<h2>Nathan Ferreira<span class="blink_me "> _</span></h2>
 <h4>- 💻 Fullstack </h4>
 <h4>- ⚛ ReactJs Developer </h4>
 <h4>- ✉ nathan.fe.dias@gmail.com</h4>
