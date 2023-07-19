@@ -1,6 +1,6 @@
 
-
-<h2>Nathan Ferreira<span class="blink_me "> _</span></h2>
+<img width="100%" src="https://raw.githubusercontent.com/nathanzd/imagens/main/21.jpg"/>
+<!--<h2>Nathan Ferreira<span class="blink_me "> _</span></h2>-->
 <h4>- 💻 Software Development </h4>
 <h4>- 🛒 Ecommerce </h4>
 
