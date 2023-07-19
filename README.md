@@ -1,13 +1,13 @@
-<link src="./README.css">
+
+
 <h2>Nathan Ferreira<span class="blink_me "> _</span></h2>
-<h4>- 💻 Fullstack </h4>
-<h4>- ⚛ ReactJs Developer </h4>
-<h4>- ✉ nathan.fe.dias@gmail.com</h4>
+<h4>- 💻 Software Development </h4>
+<h4>- 🛒 Ecommerce </h4>
 
 
-<div align="center">
-  <a href="https://github.com/nathanzd">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=nathanzd&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true"/>
+
+<div >
+  
   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nathanzd&layout=compact&langs_count=7&theme=chartreuse-dark"/>
 </div>
 <div style="display:inline_block"><br>
