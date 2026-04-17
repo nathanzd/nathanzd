@@ -1,20 +1,19 @@
 
-<div align="center" style="background:black; padding:30px; border-radius:8px;">
+<div align="center" style="background:#0d1117; padding:25px; border-radius:10px; border:1px solid #30363d;">
 
-  <pre style="color:white; font-size:12px; line-height:14px;">
-010101010101010101010101010101010101010101010101010101010101010101
-101010101010101010101010101010101010101010101010101010101010101010
-001100110011001100110011001100110011001100110011001100110011001100
-110011001100110011001100110011001100110011001100110011001100110011
-010110101010101011010101010101011010101010101011010101010101011010
+  <pre style="color:#58a6ff; font-size:12px; text-align:left; display:inline-block;">
+> initializing profile...
+> loading modules: python, etl, automation, apis
+> connecting to data sources...
+> status: <span style="color:#3fb950;">SUCCESS</span>
   </pre>
 
-  <h1 style="color:white; font-family:monospace; letter-spacing:3px;">
-    NATHAN FERREIRA
+  <h1 style="color:#c9d1d9; font-family:monospace; letter-spacing:2px; margin-top:10px;">
+    Nathan Ferreira
   </h1>
 
-  <p style="color:gray; font-family:monospace;">
-    Python • ETL • Automação • APIs • Power Platform
+  <p style="color:#8b949e; font-family:monospace;">
+    Data Engineering • Automação • APIs • Power Platform
   </p>
 
 </div>
