@@ -1,42 +1,63 @@
+<h1 align="center">Olá, eu sou o Nathan Ferreira 👋</h1>
 
-<div align="center" style="background:#0d1117; padding:25px; border-radius:10px; border:1px solid #30363d;">
+<p align="center">
+  <b>Analista de Automação • Data & ETL Engineer • Backend & APIs</b>
+</p>
 
-  <pre style="color:#58a6ff; font-size:12px; text-align:left; display:inline-block;">
-> initializing profile...
-> loading modules: python, etl, automation, apis
-> connecting to data sources...
-> status: <span style="color:#3fb950;">SUCCESS</span>
-  </pre>
+---
 
-  <h1 style="color:#c9d1d9; font-family:monospace; letter-spacing:2px; margin-top:10px;">
-    Nathan Ferreira
-  </h1>
+## ⚙️ Sobre mim
 
-  <p style="color:#8b949e; font-family:monospace;">
-    Data Engineering • Automação • APIs • Power Platform
-  </p>
+- 🎓 Engenharia de Computação (Univesp)
+- 🤖 Foco em automação, ETL e integração de sistemas
+- 🐍 Desenvolvimento com Python para pipelines e scraping
+- ☁️ Experiência com Power Platform (Power Apps, Automate, BI)
+- 🔗 Integração de APIs e Microsoft Graph
+
+---
+
+## 🧠 Tech Stack
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" height="40"/>
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img height="150em" src="https://github-readme-stats.vercel.app/api?username=nathanzd&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nathanzd&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </div>
 
+---
 
+## 🚀 O que eu construo
 
-<div >
+- Pipelines de dados (ETL/ELT)
+- Automação de processos corporativos
+- Web scraping e integração de APIs
+- Sistemas backend com Python/Flask
+- Dashboards e análises com Power BI
 
-<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nathanzd&layout=compact&langs_count=7&theme=chartreuse-dark"/>
-</div>
-<div style="display:inline_block"><br>
-  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <!--<img align="center" alt="Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">-->
-  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <!--<img align="right" alt="Dragon" height="150" style="border-radius:100px;" src="https://cdn.discordapp.com/attachments/918234319548465162/922262680419577936/download20211200195447.png">-->
-</div>
+---
 
-##
+## 📫 Contato
 
-<div> 
-
-<a href = "mailto:nathan.fe.dias@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://www.linkedin.com/in/nathanzd/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+<p align="center">
+  <a href="mailto:nathan.fe.dias@gmail.com">
+    📧 Email
+  </a>
+  |
+  <a href="https://www.linkedin.com/in/nathanzd/">
+    💼 LinkedIn
+  </a>
+</p>
