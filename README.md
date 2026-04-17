@@ -1,9 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub Banner - Nathan Ferreira</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Courier New", monospace;
+    }
 
-<img width="100%" src="https://raw.githubusercontent.com/nathanzd/imagens/main/21.jpg"/>
-<!--<h2>Nathan Ferreira<span class="blink_me "> _</span></h2>-->
-<h4>- 💻 Fullstack Developer </h4>
-<h4>- 🛒 Ecommerce </h4>
+    body {
+      background: black;
+      overflow: hidden;
+    }
 
+    .container {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      background: black;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* TEXTO PRINCIPAL */
+    .content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+    }
+
+    .content h1 {
+      font-size: 32px;
+      letter-spacing: 3px;
+    }
+
+    .content p {
+      font-size: 14px;
+      margin-top: 10px;
+      opacity: 0.7;
+    }
+
+    /* CHUVA MATRIX */
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+
+    /* EFEITO GLITCH SUAVE */
+    .glitch {
+      position: relative;
+      color: white;
+    }
+
+    .glitch::before,
+    .glitch::after {
+      content: attr(data-text);
+      position: absolute;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      color: white;
+    }
+
+    .glitch::before {
+      animation: glitchTop 2s infinite linear;
+    }
+
+    .glitch::after {
+      animation: glitchBottom 2s infinite linear;
+    }
+
+    @keyframes glitchTop {
+      0% { clip-path: inset(0 0 90% 0); transform: translate(-1px, -1px); }
+      50% { clip-path: inset(0 0 50% 0); transform: translate(1px, 1px); }
+      100% { clip-path: inset(0 0 90% 0); transform: translate(0, 0); }
+    }
+
+    @keyframes glitchBottom {
+      0% { clip-path: inset(90% 0 0 0); transform: translate(1px, 1px); }
+      50% { clip-path: inset(50% 0 0 0); transform: translate(-1px, -1px); }
+      100% { clip-path: inset(90% 0 0 0); transform: translate(0, 0); }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <canvas id="matrix"></canvas>
+
+  <div class="content">
+    <h1 class="glitch" data-text="NATHAN FERREIRA">
+      NATHAN FERREIRA
+    </h1>
+    <p>
+      Python • ETL • Automação • Power Platform • APIs • Data Engineering
+    </p>
+  </div>
+</div>
+
+<script>
+  const canvas = document.getElementById("matrix");
+  const ctx = canvas.getContext("2d");
+
+  canvas.width = window.innerWidth;
+  canvas.height = 300;
+
+  const letters = "01ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const fontSize = 14;
+  const columns = canvas.width / fontSize;
+
+  const drops = [];
+
+  for (let i = 0; i < columns; i++) {
+    drops[i] = 1;
+  }
+
+  function draw() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.fillStyle = "#FFFFFF";
+    ctx.font = fontSize + "px monospace";
+
+    for (let i = 0; i < drops.length; i++) {
+      const text = letters.charAt(Math.floor(Math.random() * letters.length));
+      ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+      if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+        drops[i] = 0;
+      }
+
+      drops[i]++;
+    }
+  }
+
+  setInterval(draw, 33);
+</script>
+
+</body>
+</html>
 
 
 <div >
